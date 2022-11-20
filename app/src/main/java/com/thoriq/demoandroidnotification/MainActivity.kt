@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private lateinit var btnNotif: Button
+    private lateinit var btnCamera: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,6 +33,15 @@ class MainActivity : AppCompatActivity() {
         btnNotif.setOnClickListener{
             sendNotif()
         }
+        btnCamera = findViewById(R.id.btn_move_camera)
+        btnCamera.setOnClickListener{
+            moveToCamera()
+        }
+    }
+
+    private fun moveToCamera(){
+        val itn = Intent(this, IntegrasiKamera::class.java)
+        startActivity(itn)
     }
 
     private fun sendNotif(){

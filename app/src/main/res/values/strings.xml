@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Demo Android Notification</string>
     <string name="send_notif">send Notif</string>
-    <string name="content_title">Niken belum Mandi</string>
+    <string name="content_title">Udah mandi belum sayang?</string>
+    <string name="move_camera">Move Camera</string>
+    <string name="deskripsi">deskripsi</string>
 </resources>
