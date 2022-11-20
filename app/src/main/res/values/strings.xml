@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Demo Android Notification</string>
+    <string name="send_notif">send Notif</string>
+    <string name="content_title">Niken belum Mandi</string>
+</resources>
